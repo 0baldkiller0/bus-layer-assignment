@@ -1,0 +1,59 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# KiCad local/generated files
+.history/
+**/.history/
+*-backups/
+fp-info-cache
+*.lck
+~*.kicad_pcb.lck
+~*.kicad_pro.lck
+
+# Office temporary lock files
+~$*
+
+# Local assistant/editor settings
+.claude/settings.local.json
+
+# Debug / temp logs
+debug.txt
+
+# External open-hardware sample repos are local inputs, not source code.
+external_samples/**
+!external_samples/README.md
+!external_samples/sample_inventory.md
+!external_samples/sample_inventory.json
+!external_samples/candidate_benchmark_report.md
+!external_samples/scan_kicad_samples.py
+
+# Generated routing experiment outputs
+runs/
+
+# Benchmark experiment run outputs (generated DSN/SES/KiCad files)
+bench1/
+bench2/
+bench4/
+bench1_v2/
+bench2_v2/
+bench4_v2/
+
+# External benchmark data
+benchmark/external/
+
+# Generated benchmark reports
+benchmark/bus_candidates_report.md
+benchmark/bus_candidates_report.py
+benchmark/bench*_v2.json
+benchmark/bench*_4L.json
+
+# Generated doc files (one-off helpers + binary outputs)
+doc/_update_weekly_report_*.py
+doc/generate_weekly_summary_*.py
+doc/report_*.docx
+doc/weekly_report_*.docx
+doc/生成*.docx
+# Freerouter fat binaries + embedded source fork
+freerouter/
+freerouting_src/
