@@ -1,0 +1,1452 @@
+{
+  "buses10_layers2_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 17,
+        "crossing_count": 10,
+        "layer_usage": 2,
+        "congestion_max": 30.9,
+        "congestion_avg": 12.2465,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 7,
+        "cost": 708.4137
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 11,
+        "crossing_count": 7,
+        "layer_usage": 2,
+        "congestion_max": 24.9,
+        "congestion_avg": 10.5892,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 5,
+        "cost": 533.4137
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 13,
+        "crossing_count": 7,
+        "layer_usage": 2,
+        "congestion_max": 34.5,
+        "congestion_avg": 10.8139,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 6,
+        "cost": 603.4137
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 12,
+        "crossing_count": 8,
+        "layer_usage": 2,
+        "congestion_max": 32.4,
+        "congestion_avg": 10.5943,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 4,
+        "cost": 498.4137
+      },
+      "time": 0.059
+    }
+  },
+  "buses10_layers2_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 17,
+        "crossing_count": 10,
+        "layer_usage": 2,
+        "congestion_max": 40.5,
+        "congestion_avg": 14.4072,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 9,
+        "cost": 827.3938
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 15,
+        "crossing_count": 8,
+        "layer_usage": 2,
+        "congestion_max": 37.8,
+        "congestion_avg": 13.9667,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 8,
+        "cost": 747.3938
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 15,
+        "crossing_count": 9,
+        "layer_usage": 2,
+        "congestion_max": 44.7,
+        "congestion_avg": 14.7074,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 7,
+        "cost": 702.3938
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 16,
+        "crossing_count": 9,
+        "layer_usage": 2,
+        "congestion_max": 40.5,
+        "congestion_avg": 14.0171,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 6,
+        "cost": 662.3938
+      },
+      "time": 0.025
+    }
+  },
+  "buses10_layers2_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 18,
+        "crossing_count": 2,
+        "layer_usage": 2,
+        "congestion_max": 68.1,
+        "congestion_avg": 15.8217,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 8,
+        "cost": 763.7819
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 12,
+        "crossing_count": 1,
+        "layer_usage": 2,
+        "congestion_max": 36.6,
+        "congestion_avg": 17.4827,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 4,
+        "cost": 498.7819
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 13,
+        "crossing_count": 1,
+        "layer_usage": 2,
+        "congestion_max": 45.9,
+        "congestion_avg": 17.5766,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 6,
+        "cost": 608.7819
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 11,
+        "crossing_count": 1,
+        "layer_usage": 2,
+        "congestion_max": 36.6,
+        "congestion_avg": 17.3745,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 4,
+        "cost": 488.7819
+      },
+      "time": 0.034
+    }
+  },
+  "buses10_layers4_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 6,
+        "crossing_count": 3,
+        "layer_usage": 4,
+        "congestion_max": 29.7,
+        "congestion_avg": 7.3422,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 1,
+        "cost": 267.4137
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 3,
+        "crossing_count": 2,
+        "layer_usage": 4,
+        "congestion_max": 17.4,
+        "congestion_avg": 6.019,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 0,
+        "cost": 182.4137
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 5,
+        "crossing_count": 3,
+        "layer_usage": 4,
+        "congestion_max": 24.9,
+        "congestion_avg": 6.7704,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 0,
+        "cost": 207.4137
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 3,
+        "crossing_count": 2,
+        "layer_usage": 4,
+        "congestion_max": 17.4,
+        "congestion_avg": 6.019,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 0,
+        "cost": 182.4137
+      },
+      "time": 0.054
+    }
+  },
+  "buses10_layers4_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 10,
+        "crossing_count": 6,
+        "layer_usage": 4,
+        "congestion_max": 34.2,
+        "congestion_avg": 12.1716,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 4,
+        "cost": 491.3938
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 4,
+        "crossing_count": 4,
+        "layer_usage": 4,
+        "congestion_max": 21.9,
+        "congestion_avg": 9.9303,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 0,
+        "cost": 221.3938
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 5,
+        "crossing_count": 2,
+        "layer_usage": 4,
+        "congestion_max": 33.9,
+        "congestion_avg": 9.8798,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 0,
+        "cost": 221.3938
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 4,
+        "crossing_count": 4,
+        "layer_usage": 4,
+        "congestion_max": 21.9,
+        "congestion_avg": 9.9303,
+        "via_estimate": 50,
+        "wirelength_estimate": 339.3814,
+        "unrouted_estimate": 0,
+        "cost": 221.3938
+      },
+      "time": 0.018
+    }
+  },
+  "buses10_layers4_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 7,
+        "crossing_count": 1,
+        "layer_usage": 4,
+        "congestion_max": 35.1,
+        "congestion_avg": 14.513,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 1,
+        "cost": 302.7819
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 3,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 26.7,
+        "congestion_avg": 11.2097,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 0,
+        "cost": 207.7819
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 5,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 33.9,
+        "congestion_avg": 11.2934,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 0,
+        "cost": 227.7819
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 3,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 26.7,
+        "congestion_avg": 11.2097,
+        "via_estimate": 55,
+        "wirelength_estimate": 478.1885,
+        "unrouted_estimate": 0,
+        "cost": 207.7819
+      },
+      "time": 0.027
+    }
+  },
+  "buses20_layers2_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 77,
+        "crossing_count": 51,
+        "layer_usage": 2,
+        "congestion_max": 96.9,
+        "congestion_avg": 42.1841,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 20,
+        "cost": 2351.6471
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 70,
+        "crossing_count": 45,
+        "layer_usage": 2,
+        "congestion_max": 75.6,
+        "congestion_avg": 42.7019,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 20,
+        "cost": 2251.6471
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 77,
+        "crossing_count": 46,
+        "layer_usage": 2,
+        "congestion_max": 100.8,
+        "congestion_avg": 43.567,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 20,
+        "cost": 2326.6471
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 65,
+        "crossing_count": 49,
+        "layer_usage": 2,
+        "congestion_max": 99.6,
+        "congestion_avg": 46.386,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 17,
+        "cost": 2071.6471
+      },
+      "time": 0.2162
+    }
+  },
+  "buses20_layers2_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 65,
+        "crossing_count": 29,
+        "layer_usage": 2,
+        "congestion_max": 44.4,
+        "congestion_avg": 19.3658,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 20,
+        "cost": 2050.9187
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 53,
+        "crossing_count": 22,
+        "layer_usage": 2,
+        "congestion_max": 36.9,
+        "congestion_avg": 18.2069,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 19,
+        "cost": 1845.9187
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 56,
+        "crossing_count": 25,
+        "layer_usage": 2,
+        "congestion_max": 51.9,
+        "congestion_avg": 19.4309,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 19,
+        "cost": 1890.9187
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 51,
+        "crossing_count": 24,
+        "layer_usage": 2,
+        "congestion_max": 51.9,
+        "congestion_avg": 18.4392,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 16,
+        "cost": 1685.9187
+      },
+      "time": 0.0745
+    }
+  },
+  "buses20_layers2_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 58,
+        "crossing_count": 15,
+        "layer_usage": 2,
+        "congestion_max": 73.2,
+        "congestion_avg": 32.5532,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 20,
+        "cost": 2020.4999
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 49,
+        "crossing_count": 17,
+        "layer_usage": 2,
+        "congestion_max": 77.7,
+        "congestion_avg": 34.6986,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 19,
+        "cost": 1890.4999
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 54,
+        "crossing_count": 14,
+        "layer_usage": 2,
+        "congestion_max": 69.9,
+        "congestion_avg": 31.0906,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 19,
+        "cost": 1925.4999
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 50,
+        "crossing_count": 20,
+        "layer_usage": 2,
+        "congestion_max": 78.9,
+        "congestion_avg": 34.7484,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 17,
+        "cost": 1815.4999
+      },
+      "time": 0.081
+    }
+  },
+  "buses20_layers4_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 50,
+        "crossing_count": 30,
+        "layer_usage": 4,
+        "congestion_max": 60.0,
+        "congestion_avg": 25.5418,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 12,
+        "cost": 1580.6471
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 28,
+        "crossing_count": 17,
+        "layer_usage": 4,
+        "congestion_max": 42.9,
+        "congestion_avg": 23.9879,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 12,
+        "cost": 1295.6471
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 32,
+        "crossing_count": 17,
+        "layer_usage": 4,
+        "congestion_max": 65.1,
+        "congestion_avg": 23.4134,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 15,
+        "cost": 1485.6471
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 27,
+        "crossing_count": 17,
+        "layer_usage": 4,
+        "congestion_max": 42.9,
+        "congestion_avg": 23.9782,
+        "via_estimate": 101,
+        "wirelength_estimate": 1964.7135,
+        "unrouted_estimate": 11,
+        "cost": 1235.6471
+      },
+      "time": 0.2024
+    }
+  },
+  "buses20_layers4_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 28,
+        "crossing_count": 13,
+        "layer_usage": 4,
+        "congestion_max": 30.9,
+        "congestion_avg": 11.5499,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 9,
+        "cost": 1054.9187
+      },
+      "time": 0.001
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 15,
+        "crossing_count": 6,
+        "layer_usage": 4,
+        "congestion_max": 26.1,
+        "congestion_avg": 11.7494,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 5,
+        "cost": 689.9187
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 25,
+        "crossing_count": 11,
+        "layer_usage": 4,
+        "congestion_max": 32.4,
+        "congestion_avg": 11.7973,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 7,
+        "cost": 914.9187
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 16,
+        "crossing_count": 8,
+        "layer_usage": 4,
+        "congestion_max": 23.4,
+        "congestion_avg": 11.69,
+        "via_estimate": 82,
+        "wirelength_estimate": 591.8687,
+        "unrouted_estimate": 2,
+        "cost": 559.9187
+      },
+      "time": 0.0617
+    }
+  },
+  "buses20_layers4_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 30,
+        "crossing_count": 7,
+        "layer_usage": 4,
+        "congestion_max": 66.9,
+        "congestion_avg": 22.0078,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 11,
+        "cost": 1254.4999
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 16,
+        "crossing_count": 3,
+        "layer_usage": 4,
+        "congestion_max": 40.2,
+        "congestion_avg": 18.9438,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 2,
+        "cost": 644.4999
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 22,
+        "crossing_count": 2,
+        "layer_usage": 4,
+        "congestion_max": 47.7,
+        "congestion_avg": 18.0407,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 7,
+        "cost": 949.4999
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 16,
+        "crossing_count": 3,
+        "layer_usage": 4,
+        "congestion_max": 40.2,
+        "congestion_avg": 18.9438,
+        "via_estimate": 117,
+        "wirelength_estimate": 1049.9904,
+        "unrouted_estimate": 2,
+        "cost": 644.4999
+      },
+      "time": 0.072
+    }
+  },
+  "buses50_layers2_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 410,
+        "crossing_count": 239,
+        "layer_usage": 2,
+        "congestion_max": 170.7,
+        "congestion_avg": 75.3158,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 50,
+        "cost": 8626.6932
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 353,
+        "crossing_count": 222,
+        "layer_usage": 2,
+        "congestion_max": 165.0,
+        "congestion_avg": 77.1935,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 50,
+        "cost": 7971.6932
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 388,
+        "crossing_count": 236,
+        "layer_usage": 2,
+        "congestion_max": 167.1,
+        "congestion_avg": 75.9056,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 50,
+        "cost": 8391.6932
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 349,
+        "crossing_count": 211,
+        "layer_usage": 2,
+        "congestion_max": 150.9,
+        "congestion_avg": 76.3475,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 50,
+        "cost": 7876.6932
+      },
+      "time": 0.703
+    }
+  },
+  "buses50_layers2_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 327,
+        "crossing_count": 151,
+        "layer_usage": 2,
+        "congestion_max": 101.4,
+        "congestion_avg": 40.3309,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 50,
+        "cost": 7229.4835
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 275,
+        "crossing_count": 125,
+        "layer_usage": 2,
+        "congestion_max": 95.4,
+        "congestion_avg": 37.5082,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 47,
+        "cost": 6429.4835
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 293,
+        "crossing_count": 114,
+        "layer_usage": 2,
+        "congestion_max": 102.0,
+        "congestion_avg": 37.4637,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 49,
+        "cost": 6654.4835
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 260,
+        "crossing_count": 119,
+        "layer_usage": 2,
+        "congestion_max": 121.2,
+        "congestion_avg": 37.8675,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 46,
+        "cost": 6199.4835
+      },
+      "time": 0.425
+    }
+  },
+  "buses50_layers2_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 341,
+        "crossing_count": 158,
+        "layer_usage": 2,
+        "congestion_max": 111.3,
+        "congestion_avg": 38.3319,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 50,
+        "cost": 7423.9749
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 299,
+        "crossing_count": 149,
+        "layer_usage": 2,
+        "congestion_max": 105.9,
+        "congestion_avg": 38.8454,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 48,
+        "cost": 6858.9749
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 308,
+        "crossing_count": 144,
+        "layer_usage": 2,
+        "congestion_max": 99.9,
+        "congestion_avg": 37.8178,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 48,
+        "cost": 6923.9749
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 276,
+        "crossing_count": 141,
+        "layer_usage": 2,
+        "congestion_max": 123.9,
+        "congestion_avg": 40.231,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 45,
+        "cost": 6438.9749
+      },
+      "time": 0.7608
+    }
+  },
+  "buses50_layers4_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 206,
+        "crossing_count": 120,
+        "layer_usage": 4,
+        "congestion_max": 120.9,
+        "congestion_avg": 41.6234,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 47,
+        "cost": 5845.6932
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 157,
+        "crossing_count": 97,
+        "layer_usage": 4,
+        "congestion_max": 87.3,
+        "congestion_avg": 41.5613,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 46,
+        "cost": 5190.6932
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 174,
+        "crossing_count": 98,
+        "layer_usage": 4,
+        "congestion_max": 92.1,
+        "congestion_avg": 40.6296,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 49,
+        "cost": 5515.6932
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 146,
+        "crossing_count": 94,
+        "layer_usage": 4,
+        "congestion_max": 93.3,
+        "congestion_avg": 41.0033,
+        "via_estimate": 262,
+        "wirelength_estimate": 4169.3226,
+        "unrouted_estimate": 45,
+        "cost": 5015.6932
+      },
+      "time": 0.7632
+    }
+  },
+  "buses50_layers4_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 146,
+        "crossing_count": 50,
+        "layer_usage": 4,
+        "congestion_max": 72.9,
+        "congestion_avg": 22.0038,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 44,
+        "cost": 4618.4835
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 101,
+        "crossing_count": 53,
+        "layer_usage": 4,
+        "congestion_max": 59.7,
+        "congestion_avg": 21.672,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 36,
+        "cost": 3783.4835
+      },
+      "time": 0.001
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 130,
+        "crossing_count": 55,
+        "layer_usage": 4,
+        "congestion_max": 57.9,
+        "congestion_avg": 22.1269,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 42,
+        "cost": 4383.4835
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 96,
+        "crossing_count": 53,
+        "layer_usage": 4,
+        "congestion_max": 67.2,
+        "congestion_avg": 21.7315,
+        "via_estimate": 229,
+        "wirelength_estimate": 1348.3537,
+        "unrouted_estimate": 30,
+        "cost": 3433.4835
+      },
+      "time": 0.5171
+    }
+  },
+  "buses50_layers4_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 163,
+        "crossing_count": 66,
+        "layer_usage": 4,
+        "congestion_max": 78.3,
+        "congestion_avg": 20.6055,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 47,
+        "cost": 5037.9749
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 122,
+        "crossing_count": 67,
+        "layer_usage": 4,
+        "congestion_max": 51.9,
+        "congestion_avg": 21.0718,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 39,
+        "cost": 4232.9749
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 144,
+        "crossing_count": 66,
+        "layer_usage": 4,
+        "congestion_max": 57.0,
+        "congestion_avg": 21.0456,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 45,
+        "cost": 4747.9749
+      },
+      "time": 0.001
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 113,
+        "crossing_count": 62,
+        "layer_usage": 4,
+        "congestion_max": 52.2,
+        "congestion_avg": 22.1719,
+        "via_estimate": 231,
+        "wirelength_estimate": 2697.4887,
+        "unrouted_estimate": 37,
+        "cost": 4017.9749
+      },
+      "time": 0.6929
+    }
+  },
+  "buses5_layers2_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 4,
+        "crossing_count": 2,
+        "layer_usage": 2,
+        "congestion_max": 23.1,
+        "congestion_avg": 9.3834,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 133.1268
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 1,
+        "layer_usage": 2,
+        "congestion_max": 19.5,
+        "congestion_avg": 8.0269,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 108.1268
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 1,
+        "layer_usage": 2,
+        "congestion_max": 27.0,
+        "congestion_avg": 7.9837,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 108.1268
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 1,
+        "layer_usage": 2,
+        "congestion_max": 19.5,
+        "congestion_avg": 8.0269,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 108.1268
+      },
+      "time": 0.028
+    }
+  },
+  "buses5_layers2_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 4,
+        "crossing_count": 2,
+        "layer_usage": 2,
+        "congestion_max": 21.9,
+        "congestion_avg": 9.6881,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 118.6437
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 2,
+        "layer_usage": 2,
+        "congestion_max": 21.9,
+        "congestion_avg": 9.3358,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 98.6437
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 2,
+        "layer_usage": 2,
+        "congestion_max": 21.9,
+        "congestion_avg": 9.3358,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 98.6437
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 2,
+        "layer_usage": 2,
+        "congestion_max": 21.9,
+        "congestion_avg": 9.3358,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 98.6437
+      },
+      "time": 0.012
+    }
+  },
+  "buses5_layers2_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 2,
+        "crossing_count": 0,
+        "layer_usage": 2,
+        "congestion_max": 38.4,
+        "congestion_avg": 21.0376,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 118.8467
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 1,
+        "crossing_count": 0,
+        "layer_usage": 2,
+        "congestion_max": 26.7,
+        "congestion_avg": 13.2888,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 108.8467
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 1,
+        "crossing_count": 0,
+        "layer_usage": 2,
+        "congestion_max": 38.4,
+        "congestion_avg": 13.6651,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 108.8467
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 1,
+        "crossing_count": 0,
+        "layer_usage": 2,
+        "congestion_max": 26.7,
+        "congestion_avg": 13.2888,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 108.8467
+      },
+      "time": 0.012
+    }
+  },
+  "buses5_layers4_crossing": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 1,
+        "crossing_count": 1,
+        "layer_usage": 3,
+        "congestion_max": 19.5,
+        "congestion_avg": 7.75,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 100.1268
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 14.7,
+        "congestion_avg": 6.3439,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 87.1268
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 22.2,
+        "congestion_avg": 6.4097,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 87.1268
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 14.7,
+        "congestion_avg": 6.3439,
+        "via_estimate": 25,
+        "wirelength_estimate": 412.6829,
+        "unrouted_estimate": 0,
+        "cost": 87.1268
+      },
+      "time": 0.001
+    }
+  },
+  "buses5_layers4_dense": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 1,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 19.2,
+        "congestion_avg": 7.615,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 82.6437
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 19.2,
+        "congestion_avg": 6.8333,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 72.6437
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 19.2,
+        "congestion_avg": 6.8333,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 72.6437
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 4,
+        "congestion_max": 19.2,
+        "congestion_avg": 6.8333,
+        "via_estimate": 21,
+        "wirelength_estimate": 164.3677,
+        "unrouted_estimate": 0,
+        "cost": 72.6437
+      },
+      "time": 0.001
+    }
+  },
+  "buses5_layers4_random": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 3,
+        "congestion_max": 19.2,
+        "congestion_avg": 12.5135,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 100.8467
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 3,
+        "congestion_max": 19.2,
+        "congestion_avg": 12.5135,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 100.8467
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 3,
+        "congestion_max": 19.2,
+        "congestion_avg": 12.5135,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 100.8467
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 0,
+        "crossing_count": 0,
+        "layer_usage": 3,
+        "congestion_max": 19.2,
+        "congestion_avg": 12.5135,
+        "via_estimate": 31,
+        "wirelength_estimate": 184.6656,
+        "unrouted_estimate": 0,
+        "cost": 100.8467
+      },
+      "time": 0.0
+    }
+  },
+  "example": {
+    "Random": {
+      "metrics": {
+        "conflict_count": 7,
+        "crossing_count": 5,
+        "layer_usage": 4,
+        "congestion_max": 22.2,
+        "congestion_avg": 7.5941,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 2,
+        "cost": 337.4137
+      },
+      "time": 0.0
+    },
+    "Greedy": {
+      "metrics": {
+        "conflict_count": 3,
+        "crossing_count": 2,
+        "layer_usage": 4,
+        "congestion_max": 17.4,
+        "congestion_avg": 6.019,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 0,
+        "cost": 182.4137
+      },
+      "time": 0.0
+    },
+    "GraphColoring": {
+      "metrics": {
+        "conflict_count": 5,
+        "crossing_count": 3,
+        "layer_usage": 4,
+        "congestion_max": 24.9,
+        "congestion_avg": 6.7704,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 0,
+        "cost": 207.4137
+      },
+      "time": 0.0
+    },
+    "Feedback": {
+      "metrics": {
+        "conflict_count": 3,
+        "crossing_count": 2,
+        "layer_usage": 4,
+        "congestion_max": 17.4,
+        "congestion_avg": 6.019,
+        "via_estimate": 42,
+        "wirelength_estimate": 841.3688,
+        "unrouted_estimate": 0,
+        "cost": 182.4137
+      },
+      "time": 0.055
+    }
+  }
+}

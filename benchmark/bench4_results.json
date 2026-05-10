@@ -1,0 +1,74 @@
+{
+  "Random": {
+    "assignment": {
+      "0": 0,
+      "1": 1
+    },
+    "metrics": {
+      "conflict_count": 0,
+      "crossing_count": 0,
+      "layer_usage": 2,
+      "congestion_max": 2.943,
+      "congestion_avg": 2.943,
+      "via_estimate": 0,
+      "wirelength_estimate": 39.7763,
+      "unrouted_estimate": 0,
+      "cost": 4.3978
+    },
+    "time": 0.0
+  },
+  "Greedy": {
+    "assignment": {
+      "0": 0,
+      "1": 1
+    },
+    "metrics": {
+      "conflict_count": 0,
+      "crossing_count": 0,
+      "layer_usage": 2,
+      "congestion_max": 2.943,
+      "congestion_avg": 2.943,
+      "via_estimate": 0,
+      "wirelength_estimate": 39.7763,
+      "unrouted_estimate": 0,
+      "cost": 4.3978
+    },
+    "time": 0.0
+  },
+  "GraphColoring": {
+    "assignment": {
+      "0": 0,
+      "1": 1
+    },
+    "metrics": {
+      "conflict_count": 0,
+      "crossing_count": 0,
+      "layer_usage": 2,
+      "congestion_max": 2.943,
+      "congestion_avg": 2.943,
+      "via_estimate": 0,
+      "wirelength_estimate": 39.7763,
+      "unrouted_estimate": 0,
+      "cost": 4.3978
+    },
+    "time": 0.001
+  },
+  "OptimalSearch": {
+    "assignment": {
+      "0": 0,
+      "1": 1
+    },
+    "metrics": {
+      "conflict_count": 0,
+      "crossing_count": 0,
+      "layer_usage": 2,
+      "congestion_max": 2.943,
+      "congestion_avg": 2.943,
+      "via_estimate": 0,
+      "wirelength_estimate": 39.7763,
+      "unrouted_estimate": 0,
+      "cost": 4.3978
+    },
+    "time": 0.0
+  }
+}
