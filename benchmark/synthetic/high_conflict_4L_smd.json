@@ -1,0 +1,2569 @@
+{
+  "meta": {
+    "source": "synthetic_kicad",
+    "pcb_file": "runs\\phase1_high_conflict_smd\\high_conflict_4L_smd_clean.kicad_pcb",
+    "coordinate_system": "board_local",
+    "units": "mm",
+    "pad_type": "smd",
+    "description": "Left/right pad order is reversed to force bus crossings."
+  },
+  "board": {
+    "width": 72.0,
+    "height": 58.0,
+    "layers": 4,
+    "layer_names": {
+      "0": "F.Cu",
+      "1": "In1.Cu",
+      "2": "In2.Cu",
+      "3": "B.Cu"
+    },
+    "boundary": {
+      "dia0": [
+        0.0,
+        0.0
+      ],
+      "dia1": [
+        72.0,
+        58.0
+      ]
+    }
+  },
+  "netclasses": {
+    "Default": {
+      "track_width": 0.2,
+      "clearance_with_track": 0.2,
+      "clearance_with_microvia": 0.15,
+      "microvia_diameter": 0.45,
+      "microvia_drill": 0.2
+    }
+  },
+  "components": [
+    {
+      "id": 0,
+      "ref": "J1L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        8.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        7.2
+      ],
+      "dia1": [
+        9.8,
+        8.8
+      ]
+    },
+    {
+      "id": 1,
+      "ref": "J1R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        48.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        47.45
+      ],
+      "dia1": [
+        63.8,
+        49.05
+      ]
+    },
+    {
+      "id": 2,
+      "ref": "J2L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        9.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        8.95
+      ],
+      "dia1": [
+        9.8,
+        10.55
+      ]
+    },
+    {
+      "id": 3,
+      "ref": "J2R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        46.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        45.7
+      ],
+      "dia1": [
+        63.8,
+        47.3
+      ]
+    },
+    {
+      "id": 4,
+      "ref": "J3L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        11.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        10.7
+      ],
+      "dia1": [
+        9.8,
+        12.3
+      ]
+    },
+    {
+      "id": 5,
+      "ref": "J3R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        44.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        43.95
+      ],
+      "dia1": [
+        63.8,
+        45.55
+      ]
+    },
+    {
+      "id": 6,
+      "ref": "J4L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        13.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        12.45
+      ],
+      "dia1": [
+        9.8,
+        14.05
+      ]
+    },
+    {
+      "id": 7,
+      "ref": "J4R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        43.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        42.2
+      ],
+      "dia1": [
+        63.8,
+        43.8
+      ]
+    },
+    {
+      "id": 8,
+      "ref": "J5L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        14.2
+      ],
+      "dia1": [
+        9.8,
+        15.8
+      ]
+    },
+    {
+      "id": 9,
+      "ref": "J5R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        41.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        40.45
+      ],
+      "dia1": [
+        63.8,
+        42.05
+      ]
+    },
+    {
+      "id": 10,
+      "ref": "J6L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        16.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        15.95
+      ],
+      "dia1": [
+        9.8,
+        17.55
+      ]
+    },
+    {
+      "id": 11,
+      "ref": "J6R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        39.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        38.7
+      ],
+      "dia1": [
+        63.8,
+        40.3
+      ]
+    },
+    {
+      "id": 12,
+      "ref": "J7L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        18.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        17.7
+      ],
+      "dia1": [
+        9.8,
+        19.3
+      ]
+    },
+    {
+      "id": 13,
+      "ref": "J7R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        37.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        36.95
+      ],
+      "dia1": [
+        63.8,
+        38.55
+      ]
+    },
+    {
+      "id": 14,
+      "ref": "J8L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        20.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        19.45
+      ],
+      "dia1": [
+        9.8,
+        21.05
+      ]
+    },
+    {
+      "id": 15,
+      "ref": "J8R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        36.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        35.2
+      ],
+      "dia1": [
+        63.8,
+        36.8
+      ]
+    },
+    {
+      "id": 16,
+      "ref": "J9L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        22.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        21.2
+      ],
+      "dia1": [
+        9.8,
+        22.8
+      ]
+    },
+    {
+      "id": 17,
+      "ref": "J9R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        34.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        33.45
+      ],
+      "dia1": [
+        63.8,
+        35.05
+      ]
+    },
+    {
+      "id": 18,
+      "ref": "J10L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        23.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        22.95
+      ],
+      "dia1": [
+        9.8,
+        24.55
+      ]
+    },
+    {
+      "id": 19,
+      "ref": "J10R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        32.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        31.7
+      ],
+      "dia1": [
+        63.8,
+        33.3
+      ]
+    },
+    {
+      "id": 20,
+      "ref": "J11L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        25.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        24.7
+      ],
+      "dia1": [
+        9.8,
+        26.3
+      ]
+    },
+    {
+      "id": 21,
+      "ref": "J11R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        30.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        29.95
+      ],
+      "dia1": [
+        63.8,
+        31.55
+      ]
+    },
+    {
+      "id": 22,
+      "ref": "J12L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        27.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        26.45
+      ],
+      "dia1": [
+        9.8,
+        28.05
+      ]
+    },
+    {
+      "id": 23,
+      "ref": "J12R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        29.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        28.2
+      ],
+      "dia1": [
+        63.8,
+        29.8
+      ]
+    },
+    {
+      "id": 24,
+      "ref": "J13L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        29.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        28.2
+      ],
+      "dia1": [
+        9.8,
+        29.8
+      ]
+    },
+    {
+      "id": 25,
+      "ref": "J13R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        27.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        26.45
+      ],
+      "dia1": [
+        63.8,
+        28.05
+      ]
+    },
+    {
+      "id": 26,
+      "ref": "J14L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        30.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        29.95
+      ],
+      "dia1": [
+        9.8,
+        31.55
+      ]
+    },
+    {
+      "id": 27,
+      "ref": "J14R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        25.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        24.7
+      ],
+      "dia1": [
+        63.8,
+        26.3
+      ]
+    },
+    {
+      "id": 28,
+      "ref": "J15L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        32.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        31.7
+      ],
+      "dia1": [
+        9.8,
+        33.3
+      ]
+    },
+    {
+      "id": 29,
+      "ref": "J15R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        23.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        22.95
+      ],
+      "dia1": [
+        63.8,
+        24.55
+      ]
+    },
+    {
+      "id": 30,
+      "ref": "J16L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        34.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        33.45
+      ],
+      "dia1": [
+        9.8,
+        35.05
+      ]
+    },
+    {
+      "id": 31,
+      "ref": "J16R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        22.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        21.2
+      ],
+      "dia1": [
+        63.8,
+        22.8
+      ]
+    },
+    {
+      "id": 32,
+      "ref": "J17L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        36.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        35.2
+      ],
+      "dia1": [
+        9.8,
+        36.8
+      ]
+    },
+    {
+      "id": 33,
+      "ref": "J17R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        20.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        19.45
+      ],
+      "dia1": [
+        63.8,
+        21.05
+      ]
+    },
+    {
+      "id": 34,
+      "ref": "J18L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        37.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        36.95
+      ],
+      "dia1": [
+        9.8,
+        38.55
+      ]
+    },
+    {
+      "id": 35,
+      "ref": "J18R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        18.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        17.7
+      ],
+      "dia1": [
+        63.8,
+        19.3
+      ]
+    },
+    {
+      "id": 36,
+      "ref": "J19L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        39.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        38.7
+      ],
+      "dia1": [
+        9.8,
+        40.3
+      ]
+    },
+    {
+      "id": 37,
+      "ref": "J19R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        16.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        15.95
+      ],
+      "dia1": [
+        63.8,
+        17.55
+      ]
+    },
+    {
+      "id": 38,
+      "ref": "J20L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        41.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        40.45
+      ],
+      "dia1": [
+        9.8,
+        42.05
+      ]
+    },
+    {
+      "id": 39,
+      "ref": "J20R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        14.2
+      ],
+      "dia1": [
+        63.8,
+        15.8
+      ]
+    },
+    {
+      "id": 40,
+      "ref": "J21L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        43.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        42.2
+      ],
+      "dia1": [
+        9.8,
+        43.8
+      ]
+    },
+    {
+      "id": 41,
+      "ref": "J21R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        13.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        12.45
+      ],
+      "dia1": [
+        63.8,
+        14.05
+      ]
+    },
+    {
+      "id": 42,
+      "ref": "J22L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        44.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        43.95
+      ],
+      "dia1": [
+        9.8,
+        45.55
+      ]
+    },
+    {
+      "id": 43,
+      "ref": "J22R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        11.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        10.7
+      ],
+      "dia1": [
+        63.8,
+        12.3
+      ]
+    },
+    {
+      "id": 44,
+      "ref": "J23L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        46.5
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        45.7
+      ],
+      "dia1": [
+        9.8,
+        47.3
+      ]
+    },
+    {
+      "id": 45,
+      "ref": "J23R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        9.75
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        8.95
+      ],
+      "dia1": [
+        63.8,
+        10.55
+      ]
+    },
+    {
+      "id": 46,
+      "ref": "J24L",
+      "value": "HC_PAD",
+      "position": [
+        9.0,
+        48.25
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        8.2,
+        47.45
+      ],
+      "dia1": [
+        9.8,
+        49.05
+      ]
+    },
+    {
+      "id": 47,
+      "ref": "J24R",
+      "value": "HC_PAD",
+      "position": [
+        63.0,
+        8.0
+      ],
+      "layer": "F.Cu",
+      "dia0": [
+        62.2,
+        7.2
+      ],
+      "dia1": [
+        63.8,
+        8.8
+      ]
+    }
+  ],
+  "pads": [
+    {
+      "id": 0,
+      "component_id": 0,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        8.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 1,
+      "dia0": [
+        8.4,
+        7.4
+      ],
+      "dia1": [
+        9.6,
+        8.6
+      ]
+    },
+    {
+      "id": 1,
+      "component_id": 1,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        48.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 1,
+      "dia0": [
+        62.4,
+        47.65
+      ],
+      "dia1": [
+        63.6,
+        48.85
+      ]
+    },
+    {
+      "id": 2,
+      "component_id": 2,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        9.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 2,
+      "dia0": [
+        8.4,
+        9.15
+      ],
+      "dia1": [
+        9.6,
+        10.35
+      ]
+    },
+    {
+      "id": 3,
+      "component_id": 3,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        46.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 2,
+      "dia0": [
+        62.4,
+        45.9
+      ],
+      "dia1": [
+        63.6,
+        47.1
+      ]
+    },
+    {
+      "id": 4,
+      "component_id": 4,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        11.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 3,
+      "dia0": [
+        8.4,
+        10.9
+      ],
+      "dia1": [
+        9.6,
+        12.1
+      ]
+    },
+    {
+      "id": 5,
+      "component_id": 5,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        44.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 3,
+      "dia0": [
+        62.4,
+        44.15
+      ],
+      "dia1": [
+        63.6,
+        45.35
+      ]
+    },
+    {
+      "id": 6,
+      "component_id": 6,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        13.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 4,
+      "dia0": [
+        8.4,
+        12.65
+      ],
+      "dia1": [
+        9.6,
+        13.85
+      ]
+    },
+    {
+      "id": 7,
+      "component_id": 7,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        43.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 4,
+      "dia0": [
+        62.4,
+        42.4
+      ],
+      "dia1": [
+        63.6,
+        43.6
+      ]
+    },
+    {
+      "id": 8,
+      "component_id": 8,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 5,
+      "dia0": [
+        8.4,
+        14.4
+      ],
+      "dia1": [
+        9.6,
+        15.6
+      ]
+    },
+    {
+      "id": 9,
+      "component_id": 9,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        41.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 5,
+      "dia0": [
+        62.4,
+        40.65
+      ],
+      "dia1": [
+        63.6,
+        41.85
+      ]
+    },
+    {
+      "id": 10,
+      "component_id": 10,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        16.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 6,
+      "dia0": [
+        8.4,
+        16.15
+      ],
+      "dia1": [
+        9.6,
+        17.35
+      ]
+    },
+    {
+      "id": 11,
+      "component_id": 11,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        39.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 6,
+      "dia0": [
+        62.4,
+        38.9
+      ],
+      "dia1": [
+        63.6,
+        40.1
+      ]
+    },
+    {
+      "id": 12,
+      "component_id": 12,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        18.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 7,
+      "dia0": [
+        8.4,
+        17.9
+      ],
+      "dia1": [
+        9.6,
+        19.1
+      ]
+    },
+    {
+      "id": 13,
+      "component_id": 13,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        37.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 7,
+      "dia0": [
+        62.4,
+        37.15
+      ],
+      "dia1": [
+        63.6,
+        38.35
+      ]
+    },
+    {
+      "id": 14,
+      "component_id": 14,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        20.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 8,
+      "dia0": [
+        8.4,
+        19.65
+      ],
+      "dia1": [
+        9.6,
+        20.85
+      ]
+    },
+    {
+      "id": 15,
+      "component_id": 15,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        36.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 8,
+      "dia0": [
+        62.4,
+        35.4
+      ],
+      "dia1": [
+        63.6,
+        36.6
+      ]
+    },
+    {
+      "id": 16,
+      "component_id": 16,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        22.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 9,
+      "dia0": [
+        8.4,
+        21.4
+      ],
+      "dia1": [
+        9.6,
+        22.6
+      ]
+    },
+    {
+      "id": 17,
+      "component_id": 17,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        34.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 9,
+      "dia0": [
+        62.4,
+        33.65
+      ],
+      "dia1": [
+        63.6,
+        34.85
+      ]
+    },
+    {
+      "id": 18,
+      "component_id": 18,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        23.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 10,
+      "dia0": [
+        8.4,
+        23.15
+      ],
+      "dia1": [
+        9.6,
+        24.35
+      ]
+    },
+    {
+      "id": 19,
+      "component_id": 19,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        32.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 10,
+      "dia0": [
+        62.4,
+        31.9
+      ],
+      "dia1": [
+        63.6,
+        33.1
+      ]
+    },
+    {
+      "id": 20,
+      "component_id": 20,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        25.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 11,
+      "dia0": [
+        8.4,
+        24.9
+      ],
+      "dia1": [
+        9.6,
+        26.1
+      ]
+    },
+    {
+      "id": 21,
+      "component_id": 21,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        30.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 11,
+      "dia0": [
+        62.4,
+        30.15
+      ],
+      "dia1": [
+        63.6,
+        31.35
+      ]
+    },
+    {
+      "id": 22,
+      "component_id": 22,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        27.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 12,
+      "dia0": [
+        8.4,
+        26.65
+      ],
+      "dia1": [
+        9.6,
+        27.85
+      ]
+    },
+    {
+      "id": 23,
+      "component_id": 23,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        29.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 12,
+      "dia0": [
+        62.4,
+        28.4
+      ],
+      "dia1": [
+        63.6,
+        29.6
+      ]
+    },
+    {
+      "id": 24,
+      "component_id": 24,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        29.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 13,
+      "dia0": [
+        8.4,
+        28.4
+      ],
+      "dia1": [
+        9.6,
+        29.6
+      ]
+    },
+    {
+      "id": 25,
+      "component_id": 25,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        27.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 13,
+      "dia0": [
+        62.4,
+        26.65
+      ],
+      "dia1": [
+        63.6,
+        27.85
+      ]
+    },
+    {
+      "id": 26,
+      "component_id": 26,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        30.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 14,
+      "dia0": [
+        8.4,
+        30.15
+      ],
+      "dia1": [
+        9.6,
+        31.35
+      ]
+    },
+    {
+      "id": 27,
+      "component_id": 27,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        25.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 14,
+      "dia0": [
+        62.4,
+        24.9
+      ],
+      "dia1": [
+        63.6,
+        26.1
+      ]
+    },
+    {
+      "id": 28,
+      "component_id": 28,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        32.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 15,
+      "dia0": [
+        8.4,
+        31.9
+      ],
+      "dia1": [
+        9.6,
+        33.1
+      ]
+    },
+    {
+      "id": 29,
+      "component_id": 29,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        23.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 15,
+      "dia0": [
+        62.4,
+        23.15
+      ],
+      "dia1": [
+        63.6,
+        24.35
+      ]
+    },
+    {
+      "id": 30,
+      "component_id": 30,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        34.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 16,
+      "dia0": [
+        8.4,
+        33.65
+      ],
+      "dia1": [
+        9.6,
+        34.85
+      ]
+    },
+    {
+      "id": 31,
+      "component_id": 31,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        22.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 16,
+      "dia0": [
+        62.4,
+        21.4
+      ],
+      "dia1": [
+        63.6,
+        22.6
+      ]
+    },
+    {
+      "id": 32,
+      "component_id": 32,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        36.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 17,
+      "dia0": [
+        8.4,
+        35.4
+      ],
+      "dia1": [
+        9.6,
+        36.6
+      ]
+    },
+    {
+      "id": 33,
+      "component_id": 33,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        20.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 17,
+      "dia0": [
+        62.4,
+        19.65
+      ],
+      "dia1": [
+        63.6,
+        20.85
+      ]
+    },
+    {
+      "id": 34,
+      "component_id": 34,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        37.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 18,
+      "dia0": [
+        8.4,
+        37.15
+      ],
+      "dia1": [
+        9.6,
+        38.35
+      ]
+    },
+    {
+      "id": 35,
+      "component_id": 35,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        18.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 18,
+      "dia0": [
+        62.4,
+        17.9
+      ],
+      "dia1": [
+        63.6,
+        19.1
+      ]
+    },
+    {
+      "id": 36,
+      "component_id": 36,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        39.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 19,
+      "dia0": [
+        8.4,
+        38.9
+      ],
+      "dia1": [
+        9.6,
+        40.1
+      ]
+    },
+    {
+      "id": 37,
+      "component_id": 37,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        16.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 19,
+      "dia0": [
+        62.4,
+        16.15
+      ],
+      "dia1": [
+        63.6,
+        17.35
+      ]
+    },
+    {
+      "id": 38,
+      "component_id": 38,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        41.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 20,
+      "dia0": [
+        8.4,
+        40.65
+      ],
+      "dia1": [
+        9.6,
+        41.85
+      ]
+    },
+    {
+      "id": 39,
+      "component_id": 39,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        15.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 20,
+      "dia0": [
+        62.4,
+        14.4
+      ],
+      "dia1": [
+        63.6,
+        15.6
+      ]
+    },
+    {
+      "id": 40,
+      "component_id": 40,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        43.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 21,
+      "dia0": [
+        8.4,
+        42.4
+      ],
+      "dia1": [
+        9.6,
+        43.6
+      ]
+    },
+    {
+      "id": 41,
+      "component_id": 41,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        13.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 21,
+      "dia0": [
+        62.4,
+        12.65
+      ],
+      "dia1": [
+        63.6,
+        13.85
+      ]
+    },
+    {
+      "id": 42,
+      "component_id": 42,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        44.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 22,
+      "dia0": [
+        8.4,
+        44.15
+      ],
+      "dia1": [
+        9.6,
+        45.35
+      ]
+    },
+    {
+      "id": 43,
+      "component_id": 43,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        11.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 22,
+      "dia0": [
+        62.4,
+        10.9
+      ],
+      "dia1": [
+        63.6,
+        12.1
+      ]
+    },
+    {
+      "id": 44,
+      "component_id": 44,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        46.5
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 23,
+      "dia0": [
+        8.4,
+        45.9
+      ],
+      "dia1": [
+        9.6,
+        47.1
+      ]
+    },
+    {
+      "id": 45,
+      "component_id": 45,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        9.75
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 23,
+      "dia0": [
+        62.4,
+        9.15
+      ],
+      "dia1": [
+        63.6,
+        10.35
+      ]
+    },
+    {
+      "id": 46,
+      "component_id": 46,
+      "pad_name": "1",
+      "position": [
+        9.0,
+        48.25
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 24,
+      "dia0": [
+        8.4,
+        47.65
+      ],
+      "dia1": [
+        9.6,
+        48.85
+      ]
+    },
+    {
+      "id": 47,
+      "component_id": 47,
+      "pad_name": "1",
+      "position": [
+        63.0,
+        8.0
+      ],
+      "layer": "F.Cu",
+      "shape": "circle",
+      "size": [
+        1.2,
+        1.2
+      ],
+      "type": "smd",
+      "net_id": 24,
+      "dia0": [
+        62.4,
+        7.4
+      ],
+      "dia1": [
+        63.6,
+        8.6
+      ]
+    }
+  ],
+  "nets": [
+    {
+      "id": 1,
+      "name": "HC00",
+      "netclass": "Default",
+      "pad_ids": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "name": "HC01",
+      "netclass": "Default",
+      "pad_ids": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "HC02",
+      "netclass": "Default",
+      "pad_ids": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "name": "HC03",
+      "netclass": "Default",
+      "pad_ids": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": 5,
+      "name": "HC04",
+      "netclass": "Default",
+      "pad_ids": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": 6,
+      "name": "HC05",
+      "netclass": "Default",
+      "pad_ids": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": 7,
+      "name": "HC06",
+      "netclass": "Default",
+      "pad_ids": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": 8,
+      "name": "HC07",
+      "netclass": "Default",
+      "pad_ids": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": 9,
+      "name": "HC08",
+      "netclass": "Default",
+      "pad_ids": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": 10,
+      "name": "HC09",
+      "netclass": "Default",
+      "pad_ids": [
+        18,
+        19
+      ]
+    },
+    {
+      "id": 11,
+      "name": "HC10",
+      "netclass": "Default",
+      "pad_ids": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": 12,
+      "name": "HC11",
+      "netclass": "Default",
+      "pad_ids": [
+        22,
+        23
+      ]
+    },
+    {
+      "id": 13,
+      "name": "HC12",
+      "netclass": "Default",
+      "pad_ids": [
+        24,
+        25
+      ]
+    },
+    {
+      "id": 14,
+      "name": "HC13",
+      "netclass": "Default",
+      "pad_ids": [
+        26,
+        27
+      ]
+    },
+    {
+      "id": 15,
+      "name": "HC14",
+      "netclass": "Default",
+      "pad_ids": [
+        28,
+        29
+      ]
+    },
+    {
+      "id": 16,
+      "name": "HC15",
+      "netclass": "Default",
+      "pad_ids": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": 17,
+      "name": "HC16",
+      "netclass": "Default",
+      "pad_ids": [
+        32,
+        33
+      ]
+    },
+    {
+      "id": 18,
+      "name": "HC17",
+      "netclass": "Default",
+      "pad_ids": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": 19,
+      "name": "HC18",
+      "netclass": "Default",
+      "pad_ids": [
+        36,
+        37
+      ]
+    },
+    {
+      "id": 20,
+      "name": "HC19",
+      "netclass": "Default",
+      "pad_ids": [
+        38,
+        39
+      ]
+    },
+    {
+      "id": 21,
+      "name": "HC20",
+      "netclass": "Default",
+      "pad_ids": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": 22,
+      "name": "HC21",
+      "netclass": "Default",
+      "pad_ids": [
+        42,
+        43
+      ]
+    },
+    {
+      "id": 23,
+      "name": "HC22",
+      "netclass": "Default",
+      "pad_ids": [
+        44,
+        45
+      ]
+    },
+    {
+      "id": 24,
+      "name": "HC23",
+      "netclass": "Default",
+      "pad_ids": [
+        46,
+        47
+      ]
+    }
+  ],
+  "buses": [
+    {
+      "id": 0,
+      "name": "BUS0",
+      "net_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "netclass": "Default",
+      "width": 0.25,
+      "start_component": "LEFT",
+      "end_component": "RIGHT",
+      "start_pad_ids": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "end_pad_ids": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "start_pos": [
+        9.0,
+        10.625
+      ],
+      "end_pos": [
+        63.0,
+        45.625
+      ],
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    },
+    {
+      "id": 1,
+      "name": "BUS1",
+      "net_ids": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "netclass": "Default",
+      "width": 0.25,
+      "start_component": "LEFT",
+      "end_component": "RIGHT",
+      "start_pad_ids": [
+        8,
+        10,
+        12,
+        14
+      ],
+      "end_pad_ids": [
+        9,
+        11,
+        13,
+        15
+      ],
+      "start_pos": [
+        9.0,
+        17.625
+      ],
+      "end_pos": [
+        63.0,
+        38.625
+      ],
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BUS2",
+      "net_ids": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "netclass": "Default",
+      "width": 0.25,
+      "start_component": "LEFT",
+      "end_component": "RIGHT",
+      "start_pad_ids": [
+        16,
+        18,
+        20,
+        22
+      ],
+      "end_pad_ids": [
+        17,
+        19,
+        21,
+        23
+      ],
+      "start_pos": [
+        9.0,
+        24.625
+      ],
+      "end_pos": [
+        63.0,
+        31.625
+      ],
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "BUS3",
+      "net_ids": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "netclass": "Default",
+      "width": 0.25,
+      "start_component": "LEFT",
+      "end_component": "RIGHT",
+      "start_pad_ids": [
+        24,
+        26,
+        28,
+        30
+      ],
+      "end_pad_ids": [
+        25,
+        27,
+        29,
+        31
+      ],
+      "start_pos": [
+        9.0,
+        31.625
+      ],
+      "end_pos": [
+        63.0,
+        24.625
+      ],
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "name": "BUS4",
+      "net_ids": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "netclass": "Default",
+      "width": 0.25,
+      "start_component": "LEFT",
+      "end_component": "RIGHT",
+      "start_pad_ids": [
+        32,
+        34,
+        36,
+        38
+      ],
+      "end_pad_ids": [
+        33,
+        35,
+        37,
+        39
+      ],
+      "start_pos": [
+        9.0,
+        38.625
+      ],
+      "end_pos": [
+        63.0,
+        17.625
+      ],
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "name": "BUS5",
+      "net_ids": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "netclass": "Default",
+      "width": 0.25,
+      "start_component": "LEFT",
+      "end_component": "RIGHT",
+      "start_pad_ids": [
+        40,
+        42,
+        44,
+        46
+      ],
+      "end_pad_ids": [
+        41,
+        43,
+        45,
+        47
+      ],
+      "start_pos": [
+        9.0,
+        45.625
+      ],
+      "end_pos": [
+        63.0,
+        10.625
+      ],
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    }
+  ],
+  "obstacles": []
+}

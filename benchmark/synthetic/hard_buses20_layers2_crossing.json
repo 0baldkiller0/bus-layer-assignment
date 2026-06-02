@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "source": "synthetic",
+    "scenario": "crossing",
+    "seed": 123,
+    "num_buses_param": 20,
+    "num_layers_param": 2
+  },
+  "board": {
+    "width": 80.0,
+    "height": 60.0,
+    "layers": 2,
+    "layer_names": {
+      "0": "L1",
+      "1": "L2"
+    },
+    "boundary": {
+      "dia0": [
+        0,
+        0
+      ],
+      "dia1": [
+        80.0,
+        60.0
+      ]
+    }
+  },
+  "netclasses": {
+    "Default": {
+      "track_width": 0.25,
+      "clearance_with_track": 0.25,
+      "clearance_with_microvia": 0.3,
+      "microvia_diameter": 0.3,
+      "microvia_drill": 0.15
+    }
+  },
+  "components": [
+    {
+      "id": 0,
+      "name": "COMP_0",
+      "dia0": [
+        32.1786,
+        10.015
+      ],
+      "dia1": [
+        35.4404,
+        13.4509
+      ],
+      "pad_count": 0,
+      "bus_ids": []
+    },
+    {
+      "id": 1,
+      "name": "COMP_1",
+      "dia0": [
+        38.5094,
+        20.5499
+      ],
+      "dia1": [
+        46.0154,
+        23.7407
+      ],
+      "pad_count": 0,
+      "bus_ids": []
+    },
+    {
+      "id": 2,
+      "name": "COMP_2",
+      "dia0": [
+        26.1568,
+        20.422
+      ],
+      "dia1": [
+        33.4173,
+        24.2203
+      ],
+      "pad_count": 0,
+      "bus_ids": []
+    },
+    {
+      "id": 3,
+      "name": "COMP_3",
+      "dia0": [
+        25.1932,
+        25.9145
+      ],
+      "dia1": [
+        31.1812,
+        29.2639
+      ],
+      "pad_count": 0,
+      "bus_ids": []
+    },
+    {
+      "id": 4,
+      "name": "COMP_4",
+      "dia0": [
+        13.8821,
+        41.7669
+      ],
+      "dia1": [
+        21.4091,
+        45.2307
+      ],
+      "pad_count": 0,
+      "bus_ids": []
+    },
+    {
+      "id": 5,
+      "name": "COMP_5",
+      "dia0": [
+        26.5731,
+        39.5894
+      ],
+      "dia1": [
+        33.7623,
+        46.4334
+      ],
+      "pad_count": 0,
+      "bus_ids": []
+    }
+  ],
+  "pads": [],
+  "nets": [],
+  "buses": [
+    {
+      "id": 0,
+      "netclass": "Default",
+      "net_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "start_comp": 1,
+      "end_comp": 4,
+      "start_pos": [
+        38.5094,
+        53.5268
+      ],
+      "end_pos": [
+        21.4091,
+        6.1506
+      ],
+      "width": 2.4,
+      "start_directions": [
+        3
+      ],
+      "end_directions": [
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "netclass": "Default",
+      "net_ids": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "start_comp": 5,
+      "end_comp": 4,
+      "start_pos": [
+        26.5731,
+        15.5576
+      ],
+      "end_pos": [
+        21.4091,
+        49.1581
+      ],
+      "width": 2.4,
+      "start_directions": [
+        3
+      ],
+      "end_directions": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "netclass": "Default",
+      "net_ids": [
+        16,
+        17,
+        18
+      ],
+      "start_comp": 3,
+      "end_comp": 4,
+      "start_pos": [
+        29.196,
+        42.3821
+      ],
+      "end_pos": [
+        16.7011,
+        15.0501
+      ],
+      "width": 0.9,
+      "start_directions": [
+        0
+      ],
+      "end_directions": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "netclass": "Default",
+      "net_ids": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "start_comp": 5,
+      "end_comp": 0,
+      "start_pos": [
+        33.1415,
+        8.0415
+      ],
+      "end_pos": [
+        34.3251,
+        46.043
+      ],
+      "width": 1.5,
+      "start_directions": [
+        2
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "netclass": "Default",
+      "net_ids": [
+        24,
+        25
+      ],
+      "start_comp": 0,
+      "end_comp": 5,
+      "start_pos": [
+        33.6685,
+        46.0333
+      ],
+      "end_pos": [
+        30.6937,
+        8.2687
+      ],
+      "width": 0.6,
+      "start_directions": [
+        0
+      ],
+      "end_directions": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "netclass": "Default",
+      "net_ids": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "start_comp": 5,
+      "end_comp": 2,
+      "start_pos": [
+        26.6653,
+        8.7496
+      ],
+      "end_pos": [
+        28.7119,
+        48.384
+      ],
+      "width": 2.1,
+      "start_directions": [
+        2,
+        3
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "netclass": "Default",
+      "net_ids": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "start_comp": 0,
+      "end_comp": 5,
+      "start_pos": [
+        33.117,
+        51.1703
+      ],
+      "end_pos": [
+        30.1302,
+        14.6435
+      ],
+      "width": 1.8,
+      "start_directions": [
+        0
+      ],
+      "end_directions": [
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "netclass": "Default",
+      "net_ids": [
+        39,
+        40
+      ],
+      "start_comp": 3,
+      "end_comp": 1,
+      "start_pos": [
+        31.1812,
+        10.5431
+      ],
+      "end_pos": [
+        38.5094,
+        47.5356
+      ],
+      "width": 0.6,
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        3
+      ]
+    },
+    {
+      "id": 8,
+      "netclass": "Default",
+      "net_ids": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "start_comp": 1,
+      "end_comp": 3,
+      "start_pos": [
+        38.5094,
+        46.2246
+      ],
+      "end_pos": [
+        31.1812,
+        9.2632
+      ],
+      "width": 1.5,
+      "start_directions": [
+        3
+      ],
+      "end_directions": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "netclass": "Default",
+      "net_ids": [
+        46,
+        47
+      ],
+      "start_comp": 5,
+      "end_comp": 3,
+      "start_pos": [
+        26.5757,
+        12.1238
+      ],
+      "end_pos": [
+        28.8913,
+        50.4846
+      ],
+      "width": 0.6,
+      "start_directions": [
+        2,
+        3
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "netclass": "Default",
+      "net_ids": [
+        48,
+        49
+      ],
+      "start_comp": 3,
+      "end_comp": 0,
+      "start_pos": [
+        29.9581,
+        48.559
+      ],
+      "end_pos": [
+        33.4098,
+        13.6211
+      ],
+      "width": 0.6,
+      "start_directions": [
+        2
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "netclass": "Default",
+      "net_ids": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "start_comp": 2,
+      "end_comp": 3,
+      "start_pos": [
+        26.3966,
+        10.9689
+      ],
+      "end_pos": [
+        28.556,
+        42.2855
+      ],
+      "width": 2.1,
+      "start_directions": [
+        0,
+        3
+      ],
+      "end_directions": [
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "netclass": "Default",
+      "net_ids": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "start_comp": 1,
+      "end_comp": 3,
+      "start_pos": [
+        38.5094,
+        43.7278
+      ],
+      "end_pos": [
+        31.1812,
+        14.0251
+      ],
+      "width": 2.1,
+      "start_directions": [
+        2,
+        3
+      ],
+      "end_directions": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "netclass": "Default",
+      "net_ids": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "start_comp": 0,
+      "end_comp": 5,
+      "start_pos": [
+        32.365,
+        12.4504
+      ],
+      "end_pos": [
+        30.3021,
+        43.7537
+      ],
+      "width": 2.1,
+      "start_directions": [
+        0,
+        3
+      ],
+      "end_directions": [
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "netclass": "Default",
+      "net_ids": [
+        71,
+        72,
+        73
+      ],
+      "start_comp": 2,
+      "end_comp": 3,
+      "start_pos": [
+        28.8322,
+        46.0527
+      ],
+      "end_pos": [
+        28.3963,
+        7.4348
+      ],
+      "width": 0.9,
+      "start_directions": [
+        0
+      ],
+      "end_directions": [
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "netclass": "Default",
+      "net_ids": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "start_comp": 4,
+      "end_comp": 3,
+      "start_pos": [
+        17.1351,
+        11.4569
+      ],
+      "end_pos": [
+        29.6325,
+        42.2473
+      ],
+      "width": 1.5,
+      "start_directions": [
+        2
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "netclass": "Default",
+      "net_ids": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "start_comp": 5,
+      "end_comp": 3,
+      "start_pos": [
+        28.7572,
+        42.3391
+      ],
+      "end_pos": [
+        29.9304,
+        12.2591
+      ],
+      "width": 2.4,
+      "start_directions": [
+        2
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 17,
+      "netclass": "Default",
+      "net_ids": [
+        87,
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "start_comp": 4,
+      "end_comp": 1,
+      "start_pos": [
+        21.4091,
+        14.7159
+      ],
+      "end_pos": [
+        38.5094,
+        44.6989
+      ],
+      "width": 1.8,
+      "start_directions": [
+        1
+      ],
+      "end_directions": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "netclass": "Default",
+      "net_ids": [
+        93,
+        94,
+        95,
+        96,
+        97
+      ],
+      "start_comp": 2,
+      "end_comp": 0,
+      "start_pos": [
+        28.1299,
+        44.4393
+      ],
+      "end_pos": [
+        33.8301,
+        9.8647
+      ],
+      "width": 1.5,
+      "start_directions": [
+        2
+      ],
+      "end_directions": [
+        0
+      ]
+    },
+    {
+      "id": 19,
+      "netclass": "Default",
+      "net_ids": [
+        98,
+        99
+      ],
+      "start_comp": 0,
+      "end_comp": 4,
+      "start_pos": [
+        32.4407,
+        8.394
+      ],
+      "end_pos": [
+        15.3656,
+        53.9432
+      ],
+      "width": 0.6,
+      "start_directions": [
+        0,
+        3
+      ],
+      "end_directions": [
+        2
+      ]
+    }
+  ],
+  "obstacles": [
+    {
+      "id": 0,
+      "dia0": [
+        14.9506,
+        32.1836
+      ],
+      "dia1": [
+        16.2059,
+        34.1347
+      ],
+      "type": "obstacle"
+    },
+    {
+      "id": 1,
+      "dia0": [
+        26.2681,
+        30.6479
+      ],
+      "dia1": [
+        30.0562,
+        34.0749
+      ],
+      "type": "obstacle"
+    }
+  ],
+  "stats": {
+    "num_components": 6,
+    "num_nets": 100,
+    "num_buses": 20,
+    "num_pads": 0,
+    "num_obstacles": 2,
+    "num_netclasses": 1,
+    "total_bus_width": 30.0
+  }
+}
